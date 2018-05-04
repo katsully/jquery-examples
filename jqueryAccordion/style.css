@@ -1,0 +1,29 @@
+.accordion {
+	max-width: 350px;
+}
+
+
+.accordion-header {
+	border: 1px solid blue;
+	padding: 25px;
+	cursor: pointer;
+}
+
+/*CSS for when we cover over div*/
+.accordion-header:hover {
+	background-color: grey;
+}
+
+.accordion-content {
+	display: none;
+}
+
+img {
+	transition: width 3s, height 3s;
+}
+
+
+
+
+
+
